@@ -1,0 +1,13 @@
+{
+    "extends": ["tslint-config-airbnb-base", "tslint-config-prettier"],
+    "globals": {
+        "__DEV__": true
+    },
+    "rulesDirectory": ["tslint-plugin-prettier"],
+    "rules": {
+        "prettier": true,
+        "no-console": {
+            "severity": "warning"
+        }
+    }
+}

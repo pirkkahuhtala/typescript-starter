@@ -1,0 +1,17 @@
+{
+    "parser": "babel-eslint",
+    "extends": ["airbnb-base", "plugin:prettier/recommended"],
+    "globals": {
+        "__DEV__": true
+    },
+    "env": {
+        "browser": false,
+        "node": true,
+        "jest": true,
+        "es6": true
+    },
+    "rules": {
+        "prettier/prettier": ["error", { "tabWidth": 4 }]
+    },
+    "plugins": ["prettier"]
+}
